@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<form method="GET">
+<!-- 	<form method="GET">
 		<labeL for="name">
 			Name*
 		</labeL>
@@ -60,11 +60,49 @@
 <!-- 		<input type="submit"> -->
 		
 		
-	</form>
+<!-- </form> -->
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+<form>
+	<div>
+		<lebel for="name">Name*</lebel>
+		<input type="text" id="name" placeholder="Enter name" required>
+	</div>
+	<div>
+		<lebel for="email">Email*</lebel>
+		<input type="email" id="email" required>
+	</div>
+	<div>
+		<lebel for="male">Male</lebel>
+		<input type="radio" id="male" name="gender" required>
+		<lebel for="female">Female</lebel>
+		<input type="radio" id="female" name="gender" required>
+		<lebel for="other">Other</lebel>
+		<input type="radio" id="other" name="gender" required>
+	</div>
+	<div>
+		<lebel for="brands">Laptop Brands</lebel>
+		<select>
+			<option>Apple</option>
+			<option>Asus</option>
+			<option>Hp</option>
+		</select>
+	</div>
+	<div>
+		<lebel for="age">Age*</lebel>
+		<input type="number" id="age" required>
+	</div>
+	<div>
+		<level for="dob">DOB*</level>
+		<input type="date" id="dob" required>
+	</div>
+	<div>
+		<level for="password">Password*</level>
+		<input type="password" id="password" required>
+	</div>
+	<input type="button" value="submit button">
+</form>
 </body>
 
 </html>
